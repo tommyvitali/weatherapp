@@ -13,6 +13,19 @@
 
   @media screen and (max-width: 900px) {
 
+    .App {
+        
+        height:100vh;
+       
+        
+      }
+      
+      .App.warm {
+        
+        height:100vh;
+       
+      }
+
     .logo {
         width:85%;
     }
@@ -100,7 +113,8 @@
 
         .App input {
             margin-top: 17px;
-            margin-bottom: 50px;
+            margin-bottom: 12px;
+            padding:7px 10px;
         }
       .title {
           letter-spacing: 0px;
@@ -111,6 +125,28 @@
 
     .Location {
         width:86%;
+        margin-bottom: 25px;
+    }
+
+    .titleforecast {
+        
+        font-size: 20px;
+    }
+
+    .data {
+        margin-bottom: 6px;
+    }
+    .tomorrow {
+        width:40%;
+        padding:0;
+    }
+    .tomorrowtemp, .twodaystemp {
+        font-size: 25px;
+    }
+
+    .tomorrow img {
+        width:40px;
+
     }
   }
 
