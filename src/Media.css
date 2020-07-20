@@ -1,0 +1,124 @@
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        
+        justify-content: space-around;
+        
+      
+      }
+
+      .Location {
+          width:65%;
+      }
+  }
+
+  @media screen and (max-width: 900px) {
+
+    .logo {
+        width:85%;
+    }
+
+    .logo img {
+        width:455px;
+    }
+
+    .logo p {
+        
+        font-size: 25px;
+    }
+
+    .App input {
+        width:70%;
+    }
+
+    input {
+        margin-bottom: 40px;
+        
+    }
+    
+    .wrapper {
+        
+        flex-direction: column;
+        
+      
+      }
+
+      .Location {
+          width:60%;
+          margin:0 auto;
+          padding-top:10px;
+         padding-bottom: 10px;
+         margin-bottom: 60px;
+      }
+
+      .Location img {
+          width:84px;
+          margin:0;
+      }
+
+      .title {
+          font-size: 50px;
+          letter-spacing: 5px;
+      }
+
+      .forecast {
+          flex-direction: row;
+          justify-content: space-evenly;
+          
+          width:100%;
+          
+      }
+
+      .tomorrow {
+          padding:10px;
+          width:30%;
+      }
+
+      .titleforecast {
+    
+        margin-bottom: 0px;
+        
+        font-size: 30px;
+    }
+
+    p {
+       
+        font-size: 15px;
+    } 
+
+    .enter {
+        font-size: 20px;
+    }
+      
+  }
+
+
+  @media screen and (max-width: 524px) {
+
+    .logo img {
+        width:300px;
+    }
+
+        .App input {
+            margin-top: 17px;
+            margin-bottom: 50px;
+        }
+      .title {
+          letter-spacing: 0px;
+         }
+    p b {
+        font-size: 30px;
+    }
+
+    .Location {
+        width:86%;
+    }
+  }
+
+  @media screen and (max-width: 365px) {
+
+    .logo img {
+        width:220px;
+    }
+
+    
+  }
