@@ -10,7 +10,7 @@ import './Media.css';
 
 const api = {
   key: "614d8cc0d4da4374bda150647201507",
-  base: "http://api.weatherapi.com/v1/"
+  base: "https://api.weatherapi.com/v1/"
 
   }
 
